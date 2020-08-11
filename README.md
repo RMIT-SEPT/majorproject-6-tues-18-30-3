@@ -1,6 +1,6 @@
 # RMIT SEPT 2020 Major Project
 
-# Group 00
+# Group 6.TUES-18-30-3
 
 ## Members
 * SURNAME, GivenName (sXXXX)
