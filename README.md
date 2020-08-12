@@ -3,16 +3,15 @@
 # Group 6.TUES-18-30-3
 
 ## Members
-* SURNAME, GivenName (sXXXX)
-* SURNAME, GivenName (sXXXX)
-* SURNAME, GivenName (sXXXX)
-* SURNAME, GivenName (sXXXX)
-* SURNAME, GivenName (sXXXX)
+* LING, Oscar (s3604409)
+* LAKSITO, Anghika (s3728304)
+* SREERAM, Indirakshi (s3728388)
+* DU, Yuepeng (s3698728)
 
 ## Records
 
-* Github repository : https://github.com/RMIT-SEPT/MajorProject/Groupx
-* ClickUp Workspace : https://app.clickup.com/xxxx/yyyy
+* Github repository : https://github.com/RMIT-SEPT/majorproject-6-tues-18-30-3.git
+* ClickUp Workspace : https://app.clickup.com/6916544/v/l/6k2e0-58
 
 
 ## Code documentation
