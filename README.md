@@ -4,7 +4,7 @@
 
 ## Members
 * LING, Oscar (s3604409)
-* LAKSITO, Andhika (s375304)
+* LAKSITO, Andhika (s3725304)
 * SREERAM, Indirakshi (s3728388)
 * DU, Yuepeng (s3698728)
 
