@@ -20,6 +20,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/account")
+@CrossOrigin
 public class accountController {
 
     @Autowired
