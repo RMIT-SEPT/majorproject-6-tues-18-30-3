@@ -14,7 +14,7 @@ public class Appointments {
     private String email;
 
     private Date created_Ap;
-    private Date updated_Ap;
+    private Date end_Ap;
 
     public Appointments() {
     }
@@ -66,6 +66,6 @@ public class Appointments {
 
     @PreUpdate
     protected void onUpdate(){
-        this.updated_Ap = new Date();
+        this.end_Ap = new Date();
     }
 }
