@@ -3,10 +3,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './sidebar.css';
 import './login/Login.js';
 import Appointment from './Account/addAccount';
+import Team from './TeamMember';
+import Contact from './Aboutme/Contact';
+import Signup from './login/Signup';
+import Schedule from './Schedule';
+import Login from './login/Login';
+import{
+  BrowserRouter as Router, Route, Link
+} from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+
 
 class Dashboard extends Component {
     render() {
         return (
+          <Router>
             <div>
             <head>Dashboard</head>
             <body>
@@ -14,36 +25,43 @@ class Dashboard extends Component {
                 <div class="bg-light border-right" id="sidebar-wrapper">
                 <div class="sidebar-heading">Dashboard </div>
                 <div class="list-group ">
-                    <a href="./Account/addAccount.js" target="_self" class="list-group-item ">Appointment</a>
-                    <a href="./Account/CustomerAccount.js" target="_self" class="list-group-item ">Customer</a>
-                    <a href="./Services.js" target="_self" class="list-group-item ">Services</a>
-                    <a href="./TeamMember.js" target="_self" class="list-group-item ">Team</a>
-                    <a href="./Aboutme/Contact.js" target="_self" class="list-group-item ">Contact</a>
+                  <ul>
+                    <li>
+                      <Link to="/schedule">Schedule</Link>
+                    </li>
+                    <li>
+                      <Link to="/team">Team</Link>
+                    </li>
+                    <li>
+                      <Link to="/about">Contact</Link>
+                    </li>
+                  </ul>
                 </div>
                 </div>
+               
    
                 <div id="page-content-wrapper">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle">Back</button>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <button class="btn btn-secondary pull-right" id="login"  onclick = "./login/Login.js">Login </button>
-        <button class="btn btn-secondary pull-right" id="sign-up" onclick = "./login/Signup.js">Signup</button>
+        <Link to="/login"><button class="btn btn-primary" id="log-in" >Login</button></Link>
+        <Link to="/signup"><button class="btn btn-secondary pull-right" id="sign-up" >Signup</button></Link> 
+        
       </nav>
 
       <div class="container-fluid">
-        <Appointment/>
+        
+        <Route exact path="/about" component={Contact}/>
+        <Route exact path="/signup" component={Signup}/>
+        <Route exact path="/schedule" component={Schedule}/>
+        <Route exact path="/team" component={Team}/>
+        <Route exace path="/login" component={Login}/>
   
       </div>
     </div>
     </div>
     </body>
     </div>
-
+        </Router>
         )
         }
         }
