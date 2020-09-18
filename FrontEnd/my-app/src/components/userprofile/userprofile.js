@@ -27,11 +27,11 @@ class App extends Component {
     let lname = this.refs.lname.value;
     let address = this.refs.address.value;
     let pnumber = this.refs.pnumber.value;
-    let description = this.refs.description.value;
+  
 
     if(this.state.act === 0){   //new
       let data ={
-        fname, lname, address, pnumber, description
+        fname, lname, address, pnumber
       }
       datas.push(data);
     }else{                      //update
@@ -40,7 +40,7 @@ class App extends Component {
       datas[index].lname = lname;
       datas[index].address = address;
       datas[index].pnumber = pnumber;
-      datas[index].description = description;
+      
     }
 
     this.setState({
@@ -70,7 +70,7 @@ class App extends Component {
     this.refs.fname.value = data.fname;
     this.refs.address.value = data.address;
     this.refs.pnumber.value = data.pnumber;
-    this.refs.description.value = data.description;
+    
 
     this.setState({
       act: 1,
@@ -91,13 +91,12 @@ class App extends Component {
       <input type="text" ref="lname" placeholder="Last Name" className="formField" />
       <input type="text" ref="address" placeholder="Address" className="formField" />
       <input type="text" ref="pnumber" placeholder="Phone Number" className="formField" />
-      <input type="text" ref="description" placeholder="Description" className="formField" /> 
       <button onClick={this.fSubmit} className="myButton">Submit </button>
       </form>
       <pre>
         {datas.map((data, i) =>
           <li key={i} className="myList">
-            {i+1}. {data.fname}, {data.lname}, {data.address}, {data.pnumber}, {data.description}
+            {i+1}. {data.fname}, {data.lname}, {data.address}, {data.pnumber}
             <button onClick={()=>this.fRemove(i)} className="myListButton">remove </button>
             <button onClick={()=>this.fEdit(i)} className="myListButton">edit </button>
           
