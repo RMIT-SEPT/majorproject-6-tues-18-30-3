@@ -1,46 +1,72 @@
 import React, { Component } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
-import './Layout/sidebar.css';
-import './login/signup/Login.js';
+import './sidebar.css';
+import './login/Login.js';
+import Appointment from './Account/addAccount';
+import Team from './TeamMember';
+import Contact from './Aboutme/Contact';
+import Signup from './login/Signup';
+import Schedule from './Schedule';
+import Login from './login/Login';
+import AccountForm from './Account/addAccount';
+import{
+  BrowserRouter as Router, Route, Link
+} from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+
+
 class Dashboard extends Component {
     render() {
         return (
+          <Router>
             <div>
             <head>Dashboard</head>
             <body>
-
                 <div class="d-flex" id="wrapper">
                 <div class="bg-light border-right" id="sidebar-wrapper">
                 <div class="sidebar-heading">Dashboard </div>
                 <div class="list-group ">
-                    <a href="./login/signup/Login" class="list-group-item ">Login</a>
-                    <a href="" class="list-group-item ">Appointment</a>
-                    <a href="" class="list-group-item ">Customer</a>
-                    <a href="" class="list-group-item ">Services</a>
-                    <a href="./TeamMember.js" class="list-group-item ">Team</a>
-                    <a href="" class="list-group-item ">Contact</a>
+                  <ul>
+                    <li>
+                      <Link to="/schedule">Schedule</Link>
+                    </li>
+                    <li>
+                      <Link to="/team">Team</Link>
+                    </li>
+                    <li>
+                      <Link to="/about">Contact</Link>
+                    </li>
+                    <li>
+                      <Link to ="/accountForm">Account Form</Link>
+                    </li>
+                  </ul>
                 </div>
                 </div>
+               
    
                 <div id="page-content-wrapper">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle">Back</button>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <Link to="/login"><button class="btn btn-primary" id="log-in" >Login</button></Link>
+        <Link to="/signup"><button class="btn btn-secondary pull-right" id="sign-up" >Signup</button></Link> 
+        
       </nav>
 
       <div class="container-fluid">
-        <h1 class="mt-4">MajorProject</h1>
-        <p>Group 3</p><p>TUESDAY-6.30</p>
+        
+        <Route exact path="/about" component={Contact}/>
+        <Route exact path="/signup" component={Signup}/>
+        <Route exact path="/schedule" component={Schedule}/>
+        <Route exact path="/team" component={Team}/>
+        <Route exact path="/login" component={Login}/>
+        <Route exact path="/accountForm" component={AccountForm}/>
+  
       </div>
     </div>
     </div>
     </body>
     </div>
-
+        </Router>
         )
         }
         }

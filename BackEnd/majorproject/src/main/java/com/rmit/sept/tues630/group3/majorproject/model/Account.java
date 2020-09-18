@@ -3,6 +3,7 @@ package com.rmit.sept.tues630.group3.majorproject.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+
 import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 
@@ -32,6 +33,8 @@ public class Account {
     private String services;
     private double workingHours;
     private int workingDays;
+
+
 
     //Constructor for Worker account
     public Account(String fn, String ln, String un, String p, String ph, String services, double workingHours, int workingDays) {
