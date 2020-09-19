@@ -1,7 +1,5 @@
 package com.rmit.sept.tues630.group3.majorproject.model;
 
-import com.rmit.sept.tues630.group3.majorproject.model.Account;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,14 +13,16 @@ public class Team {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String firstName;//Set workers' first name as the primary key for the entity
     private String lastName;
-    private String phoneNumber;
+    private long phoneNumber;
     private String email;
+    private boolean availability;
 
-    public Team( String firstName, String lastName, String phoneNumber, String email){
+    public Team( String firstName, String lastName, long phoneNumber, String email, boolean availability){
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
         this.email = email;
+        this.availability = availability;
     }
     public Team(){
 
@@ -35,12 +35,20 @@ public class Team {
         return lastName;
     }
 
-    public String getPhoneNumber() {
+    public long getPhoneNumber() {
         return phoneNumber;
     }
 
     public String getEmail() {
         return email;
+    }
+
+    public boolean isAvailability() {
+        return availability;
+    }
+
+    public void setAvailability(boolean availability) {
+        this.availability = availability;
     }
 
 

@@ -19,14 +19,7 @@ public class AddWorker {
 
     //Add worker accounts to teamMembers array.
     public void addWorker(Account account){
-       if(account == null){
-                return;
-            }
-            else if(account.getAc_type() == "Worker"){
-                teamMembers.add(account);
-            }else{
-                return;
-            }
+
 
     }
     //Print a hard copy of all workers

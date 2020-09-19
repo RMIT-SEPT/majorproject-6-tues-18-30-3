@@ -34,6 +34,8 @@ public class Account {
     private double workingHours;
     private int workingDays;
 
+
+
     //Constructor for Worker account
     public Account(String fn, String ln, String un, String p, String ph, String services, double workingHours, int workingDays) {
         this.firstName = fn;

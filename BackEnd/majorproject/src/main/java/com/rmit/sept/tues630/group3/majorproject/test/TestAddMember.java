@@ -1,8 +1,7 @@
 package com.rmit.sept.tues630.group3.majorproject.test;
 
 import com.rmit.sept.tues630.group3.majorproject.model.Account;
-import com.rmit.sept.tues630.group3.majorproject.model.Team;
-import com.rmit.sept.tues630.group3.majorproject.services.AddWorker;
+import com.rmit.sept.tues630.group3.majorproject.services.TeamManagement;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,7 +13,7 @@ import java.util.Collection;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class TestAddMember {
 
-    AddWorker add = new AddWorker();
+    TeamManagement add = new TeamManagement();
     Collection<Account> teamMembers = new ArrayList<>();
     Account member1;
     Account member2;

@@ -7,6 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface AccountRepository extends CrudRepository<Account, Long> {
 
+    Account findAccountByUsername(String username);
     @Override
-    Iterable<Account> findAllById(Iterable<Long> iterable);
+    Iterable<Account> findAll();
 }
