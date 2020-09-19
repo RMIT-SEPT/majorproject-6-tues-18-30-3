@@ -1,5 +1,6 @@
 creds.sh
 creds2.sh
+.idea
 .terraform*
 terraform.tfstate
 terraform.tfstate.backup
