@@ -8,7 +8,7 @@
         <version>2.3.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.rmit.sept.tues630.group3</groupId>
+    <groupId>com.rmit.sept.tues630.group3.majorproject</groupId>
     <artifactId>majorproject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>majorproject</name>
