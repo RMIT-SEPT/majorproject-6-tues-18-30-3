@@ -26,18 +26,21 @@ public class TestAddMember {
 
         add.addWorker(member1);
         add.addWorker(member2);
-        add.addWorker(member3);
+
 
 
     }
     @Test
     public void Test_Success_AddMembers(){
-        Assertions.assertEquals(add.getAllWorker().size()== 2 ,add.getAllWorker().size()== 2);
+        Account member4 = new Account("Oscar","Ling", "oscarling", "222", "0541225487", "banking",15.00,3);
+        add.addWorker(member4);
+        Assertions.assertEquals(3 ,add.getAllWorker().size());
     }
 
     @Test
     public void Test_Fail_AddMembers(){
-        Assertions.assertFalse(add.getAllWorker().size()== 2 );
+        add.addWorker(member3);
+        Assertions.assertFalse(add.getAllWorker().size()== 3 );
     }
 
 }

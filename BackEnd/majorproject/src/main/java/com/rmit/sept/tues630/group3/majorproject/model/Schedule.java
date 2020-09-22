@@ -1,24 +1,32 @@
 package com.rmit.sept.tues630.group3.majorproject.model;
 
-import java.util.Date;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 
+
+@Entity
 public class Schedule {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    @NotBlank(message = "Who is the customer")
     private String customer;
-
+    @NotBlank(message = "When is it?")
     private String time;
-
+    @NotBlank(message = "Who is the user")
     private String username;
 
-    private Date appointmentTime;
-    private Account account = new Account();
+    public Schedule() {
 
-    public Schedule(String customer, Date appointmentTime, String time, String username){
-        this.customer = customer;
-        this.time = time;
-        this.appointmentTime = appointmentTime;
-        this.username = username;
     }
+
+    public int getId() {
+        return id;
+    }
+
     public String getCustomer() {
         return customer;
     }
@@ -41,14 +49,6 @@ public class Schedule {
 
     public void setUsername(String username) {
         this.username = username;
-    }
-
-    public Date getAppointmentTime() {
-        return appointmentTime;
-    }
-
-    public void setAppointmentTime(Date appointmentTime) {
-        this.appointmentTime = appointmentTime;
     }
 
 

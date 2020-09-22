@@ -22,8 +22,8 @@ public class TestTeamManagement {
     Account nullAcc;
     @BeforeEach
     public void setup(){
-        member1 = new Team("Alan","Du", 123123, "000", true);
-        member2 = new Team("Tommy","Ao", 111111, "123", false);
+        member1 = new Team(1,"Alan","Du", 123123, "000", true);
+        member2 = new Team(2,"Tommy","Ao", 111111, "123", false);
         member3 = new Account("Tommy","Ao", "caramel", "000", "0484135441", "banking",20.00,4);
         customer = new Account("Alan","Du", "2215518450", "000", "0474880181", "banking");
         nullAcc = new Account();
