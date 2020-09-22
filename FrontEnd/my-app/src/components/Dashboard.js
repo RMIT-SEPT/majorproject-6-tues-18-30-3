@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './sidebar.css';
 import './login/Login.js';
-import Appointment from './Account/addAccount';
 import Team from './TeamMember';
 import Contact from './Aboutme/Contact';
 import Signup from './login/Signup';
@@ -12,7 +11,7 @@ import AccountForm from './Account/addAccount';
 import{
   BrowserRouter as Router, Route, Link
 } from "react-router-dom";
-import Button from 'react-bootstrap/Button';
+
 
 
 class Dashboard extends Component {

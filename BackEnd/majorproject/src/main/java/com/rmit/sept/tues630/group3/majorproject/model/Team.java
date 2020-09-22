@@ -8,16 +8,17 @@ import javax.persistence.Id;
 
 @Entity
 public class Team {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private String firstName;//Set workers' first name as the primary key for the entity
     private String lastName;
     private long phoneNumber;
     private String email;
     private boolean availability;
 
-    public Team( String firstName, String lastName, long phoneNumber, String email, boolean availability){
+    public Team(int id, String firstName, String lastName, long phoneNumber, String email, boolean availability){
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
@@ -26,6 +27,11 @@ public class Team {
     }
     public Team(){
 
+    }
+
+
+    public int getId() {
+        return id;
     }
 
     public String getFirstName() {
