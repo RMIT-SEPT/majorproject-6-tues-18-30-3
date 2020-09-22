@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce93384f-4c1d-4501-b3fe-7f508cdd2a38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.aws/Credentials" beforeDir="false" />
+    <list default="true" id="ce93384f-4c1d-4501-b3fe-7f508cdd2a38" name="Default Changelist" comment="setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -102,7 +101,7 @@
       <workItem from="1599890814737" duration="1029000" />
       <workItem from="1600504565988" duration="205000" />
       <workItem from="1600705241755" duration="2812000" />
-      <workItem from="1600753168206" duration="9344000" />
+      <workItem from="1600753168206" duration="12415000" />
     </task>
     <servers />
   </component>
@@ -126,9 +125,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="setup" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="716" y="325" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599557645965">
+    <state x="147" y="201" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600763475483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="147" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.-187.1920.1040@0.0.1920.1040" timestamp="1600763475483" />
     <state x="716" y="325" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599557645965" />
     <state x="726" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600504221620">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -142,10 +142,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="706" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.-187.1920.1040@0.0.1920.1040" timestamp="1600504413229" />
-    <state x="520" y="129" key="CommitChangelistDialog2" timestamp="1599886218561">
+    <state x="520" y="129" key="CommitChangelistDialog2" timestamp="1600766462879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="520" y="129" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-187.1920.1040@0.0.1920.1040" timestamp="1599886218561" />
+    <state x="520" y="129" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-187.1920.1040@0.0.1920.1040" timestamp="1600766462879" />
     <state width="1877" height="272" key="GridCell.Tab.0.bottom" timestamp="1599891755430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,6 +1,6 @@
 creds.sh
 creds2.sh
-.idea
+.idea*
 .terraform*
 .terraform.tfstate.lock.info
 terraform.tfstate
