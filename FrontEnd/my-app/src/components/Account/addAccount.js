@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import axios from 'axios' 
 
 class addAccount extends Component {
     constructor(){
@@ -33,6 +34,14 @@ class addAccount extends Component {
         }
 
         console.log(newAccount);
+
+        axios.post("http://localhost:8080/api/account",newAccount).then(function(response){
+            console.log(response);
+        })
+        .catch(function(error){
+            console.log(error);
+        })
+        
     }
     render() {
         return (

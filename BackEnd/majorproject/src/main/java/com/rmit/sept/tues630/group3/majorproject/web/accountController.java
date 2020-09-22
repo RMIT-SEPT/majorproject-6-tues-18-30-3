@@ -1,6 +1,7 @@
 package com.rmit.sept.tues630.group3.majorproject.web;
 
 
+import com.rmit.sept.tues630.group3.majorproject.Repository.AccountRepository;
 import com.rmit.sept.tues630.group3.majorproject.model.Account;
 import com.rmit.sept.tues630.group3.majorproject.services.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,15 +26,18 @@ public class accountController {
     private CustomerService customerService;
 
 
-    @PostMapping("")
+    @PostMapping(value = "",headers = "accept=application/json")
     public ResponseEntity<?> createNewAccount(@Valid @RequestBody Account account, BindingResult result){
         if(result.hasErrors()){
             Map<String, String> errorMap = new HashMap<>();
-            for(FieldError error : result.getFieldErrors()){
+            for(FieldError error : result.getFieldErrors()) {
                 return new ResponseEntity<List<FieldError>>(result.getFieldErrors(), HttpStatus.BAD_REQUEST);
             }
+
         }
         Account account1 = customerService.saveOrUpdateAccount(account);
         return new ResponseEntity<Account>(account, HttpStatus.CREATED);
     }
+
+
 }

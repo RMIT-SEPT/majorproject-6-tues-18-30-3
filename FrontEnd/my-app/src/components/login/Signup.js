@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './signup.css'
+import axios from 'axios'
 class Signup extends Component {
     constructor(){
         super();
@@ -39,6 +40,13 @@ class Signup extends Component {
         }
 
         console.log(newAccount);
+
+        axios.post("http://localhost:8080/api/account",newAccount).then(function(response){
+            console.log(response);
+        })
+        .catch(function(error){
+            console.log(error);
+        })
     }
     render() {
         return (
