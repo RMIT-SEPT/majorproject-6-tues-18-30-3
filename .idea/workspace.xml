@@ -6,20 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c29222d0-b25e-459a-a756-0ea4febd8db9" name="Default Changelist" comment="setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/majorproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/majorproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/Repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/Repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/Repository/TeamRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/services/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/web/accountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/web/accountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/web/loginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/web/teamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/web/teamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/Repository/AccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/Repository/AccountRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/services/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/services/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/web/accountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/web/accountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/src/components/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/my-app/src/components/login/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +101,7 @@
       <workItem from="1601956970250" duration="4318000" />
       <workItem from="1602166414912" duration="7000" />
       <workItem from="1602226741685" duration="605000" />
-      <workItem from="1602298788366" duration="2481000" />
+      <workItem from="1602298788366" duration="4626000" />
     </task>
     <servers />
   </component>
