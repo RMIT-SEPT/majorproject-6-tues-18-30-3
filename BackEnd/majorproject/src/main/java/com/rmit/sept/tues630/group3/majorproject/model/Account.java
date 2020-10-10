@@ -60,6 +60,7 @@ public class Account {
         this.services = services;
         this.phoneNumber = ph;
 
+
         String ac_type = "Customer";
         this.ac_type = ac_type;
     }
@@ -74,15 +75,23 @@ public class Account {
         this.ac_type = ac_type;
     }
     //For Worker to update details as their details may change after a period of time
-    public void updateWorkerDetails(String fn, String ln, String a, String c, String g, String ph , String email, String services, double workingHours, int workingDays) {
+    public void updateWorkerDetails(String fn, String ln, String un, String p, String ph, String services, double workingHours, int workingDays) {
         this.firstName = fn;
         this.lastName = ln;
-        this.address = a;
-        this.email = email;
+        this.username = un;
+        this.password = p;
         this.phoneNumber = ph;
         this.services = services;
         this.workingHours = workingHours;
         this.workingDays = workingDays;
+    }
+    public void updateAccountDetails(String fn, String ln, String un, String p, String ph , String services) {
+        this.firstName = fn;
+        this.lastName = ln;
+        this.phoneNumber = ph;
+        this.services = services;
+        this.username = un;
+        this.password = p;
     }
 
 

@@ -1,6 +1,6 @@
 package com.rmit.sept.tues630.group3.majorproject.web;
 
-import com.rmit.sept.tues630.group3.majorproject.model.Account;
+import com.rmit.sept.tues630.group3.majorproject.Repository.TeamRepository;
 import com.rmit.sept.tues630.group3.majorproject.model.Team;
 import com.rmit.sept.tues630.group3.majorproject.services.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +23,8 @@ public class teamController {
 
     @Autowired
     private CustomerService customerService;
+    @Autowired
+    TeamRepository teamRepository;
 
 
     @PostMapping(value = "",headers = "accept=application/json")
