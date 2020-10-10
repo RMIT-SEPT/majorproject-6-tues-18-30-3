@@ -49,10 +49,10 @@ public class Team {
         return email;
     }
 
-    public boolean isAvailability() {
+    public boolean isAvailable() {
         return availability;
     }
-
+    public boolean getAvailability(){return availability;}
     public void setAvailability(boolean availability) {
         this.availability = availability;
     }

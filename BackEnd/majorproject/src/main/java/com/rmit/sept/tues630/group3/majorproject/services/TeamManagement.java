@@ -41,6 +41,14 @@ public class TeamManagement {
 
 
     }
+    //View worker's availiability for the next 7 days
+    public boolean Is_Available(Team account){
+        if(account.getAvailability() == true){
+            return true;
+        }else{
+            return false;
+        }
+    }
     //Print a hard copy of all workers
     public ArrayList<Account> getAllWorker(){
         ArrayList<Account> workerCopy = new ArrayList<Account>();
