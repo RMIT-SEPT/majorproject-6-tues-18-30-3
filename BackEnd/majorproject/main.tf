@@ -177,11 +177,12 @@ resource "aws_autoscaling_group" "app" {
   target_group_arns    = [aws_lb_target_group.app.arn]
 }
 
-//resource "aws_db_instance" "appdb" {
-  //allocated_storage = 20
-  //engine            = "h2"
-  //instance_class    = "db.t2.micro"
-  //name              = "appdb"
-  //username          = "tues630group3"
-  //password          = null
-//}
+resource "aws_db_instance" "appdb" {
+  allocated_storage = 20
+  engine            = "mysql"
+  instance_class    = "db.t2.micro"
+  name              = "appdb"
+  username          = "tues630group3"
+  password          = "tues1830"
+  final_snapshot_identifier = "final_snapshot"
+}
