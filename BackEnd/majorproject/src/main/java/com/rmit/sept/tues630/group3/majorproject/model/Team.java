@@ -1,19 +1,17 @@
 package com.rmit.sept.tues630.group3.majorproject.model;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 
 @Entity
-@Table(name = "team")
 public class Team {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
-    @Column(name = "first_name")
     private String firstName;//Set workers' first name as the primary key for the entity
-
-    @Column(name = "last_name")
     private String lastName;
     private long phoneNumber;
     private String email;

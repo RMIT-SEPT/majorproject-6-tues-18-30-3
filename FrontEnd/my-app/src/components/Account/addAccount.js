@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
- 
 
 class addAccount extends Component {
     constructor(){
@@ -33,8 +32,7 @@ class addAccount extends Component {
             end_Ap: this.state.end_Ap
         }
 
-    
-        
+        console.log(newAccount);
     }
     render() {
         return (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import './signup.css'
 import axios from 'axios'
+import './signup.css'
 class Signup extends Component {
     constructor(){
         super();
@@ -15,7 +15,8 @@ class Signup extends Component {
             phoneNumber: "",
             services: "",
             workingDays: "",
-            workingHours: ""
+            workingHours: "",
+            redirect_url: null
         };
         this.onChange = this.onChange.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
@@ -40,12 +41,19 @@ class Signup extends Component {
         }
 
         console.log(newAccount);
-
-        axios.post("http://localhost:8080/api/account",newAccount).then(function(response){
-            console.log(response);
+        axios.post('http://localhost:8080/api/account', newAccount)
+        .then(function(result) {
+            console.log(result)
+            if(result.status >= 400 || result.status < 200) {
+                throw new Error("ERROR LOGIN !");
+            }else{
+                alert("Signup Sucess")
+                window.location.href = '/login'
+            }
         })
-        .catch(function(error){
-            console.log(error);
+        .catch(function(error) {
+            console.error(error.message)
+            alert(error.message)
         })
     }
     render() {

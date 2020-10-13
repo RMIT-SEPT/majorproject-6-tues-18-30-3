@@ -8,7 +8,7 @@
         <version>2.3.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.rmit.sept.tues630.group3.majorproject</groupId>
+    <groupId>com.rmit.sept.tues630.group3</groupId>
     <artifactId>majorproject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>majorproject</name>
@@ -69,11 +69,6 @@
             <artifactId>android-json</artifactId>
             <version>0.0.20131108.vaadin1</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>1.4.200</version>
         </dependency>
     </dependencies>
 
