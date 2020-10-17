@@ -178,11 +178,24 @@ resource "aws_autoscaling_group" "app" {
 }
 
 resource "aws_db_instance" "appdb" {
-  allocated_storage = 20
-  engine            = "mysql"
-  instance_class    = "db.t2.micro"
-  name              = "appdb"
-  username          = "tues630group3"
-  password          = "tues1830"
-  final_snapshot_identifier = "final_snapshot"
+  allocated_storage   = 20
+  engine              = "mysql"
+  engine_version      = "5.7"
+  instance_class      = "db.t2.micro"
+  name                = "majorproject"
+  username            = "tues630group3"
+  password            = "tues1830"
+  skip_final_snapshot = true
+  identifier          = "septdb"
+  publicly_accessible = true
 }
+
+#provider "mysql" {
+# endpoint = "${aws_db_instance.appdb.endpoint}"
+#username = "${aws_db_instance.appdb.username}"
+#password = "${aws_db_instance.appdb.password}"
+#}
+
+#resource "mysql_database" "app" {
+# name = "majorproject"
+#}
