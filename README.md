@@ -17,3 +17,10 @@
 ## Code documentation
 
 [Quick Start](/docs/README.md) in `docs` folder
+endpoint: 
+septdb.c5qffzfn5nf8.us-east-1.rds.amazonaws.com:3306/majorproject
+Username: tues630group3
+Password: tues1830
+
+Once you have all both front-end and back-end, you need to run fron-end by using the command "npm start", for the back-end, just run it in IDE.
+After that connect to the database using the endpoint, also the username and password above.
