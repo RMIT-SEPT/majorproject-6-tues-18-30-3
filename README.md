@@ -17,6 +17,7 @@
 ## Code documentation
 
 [Quick Start](/docs/README.md) in `docs` folder
+
 endpoint: 
 septdb.c5qffzfn5nf8.us-east-1.rds.amazonaws.com:3306/majorproject
 Username: tues630group3
