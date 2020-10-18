@@ -8,41 +8,48 @@ import java.util.ArrayList;
 public class TeamManagement {
     private ArrayList<Account> teamMembers = new ArrayList<>();
 
-    public TeamManagement(Account account){
+    public TeamManagement(Account account) {
         teamMembers = new ArrayList<Account>();
-
     }
 
     public TeamManagement() {
-
     }
+
     //Customer assignment
-    public boolean assignCustomerToWorker(Team employee,Account account, String services){
-        if(account == null || employee == null){
+    public boolean assignCustomerToWorker(Team employee, Account account, String services) {
+        if (account == null || employee == null) {
             return false;
-        }else if(account.getAc_type() == "Customer"){
+        } else if (account.getAc_type() == "Customer") {
             employee.setAvailability(false);
             return true;
-        }else{
+        } else {
             return false;
         }
-
     }
 
     //Add worker accounts to teamMembers array.
-    public void addWorker(Account account){
-        if(account == null){
+    public void addWorker(Account account) {
+        if (account == null) {
             return;
-        }else if(account.getAc_type() == "Worker"){
+        } else if (account.getAc_type() == "Worker") {
             teamMembers.add(account);
-        }else{
+        } else {
             return;
         }
 
-
     }
+
+    //View worker's availiability for the next 7 days
+    public boolean Is_Available(Team account) {
+        if (account.getAvailability() == true) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     //Print a hard copy of all workers
-    public ArrayList<Account> getAllWorker(){
+    public ArrayList<Account> getAllWorker() {
         ArrayList<Account> workerCopy = new ArrayList<Account>();
         workerCopy.addAll(teamMembers);
         return workerCopy;

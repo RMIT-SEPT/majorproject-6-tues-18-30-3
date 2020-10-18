@@ -5,14 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80e80c14-22cd-49c6-9eac-c7b99e8ea64d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/majorproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/majorproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/MajorprojectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/MajorprojectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/Repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/model/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/model/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/model/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/model/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/services/AddWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/services/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/services/TeamManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/services/TeamManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/test/TestTeamManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/src/main/java/com/rmit/sept/tues630/group3/majorproject/test/TestTeamManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/MajorprojectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/MajorprojectApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/Repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/Repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/model/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/model/Schedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/model/Schedule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/model/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/model/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/services/AddWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/services/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/services/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/services/TeamManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/services/TeamManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/test/TestTeamManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/majorproject/target/classes/com/rmit/sept/tues630/group3/majorproject/test/TestTeamManagement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/my-app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/src/components/login/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/my-app/src/components/login/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/my-app/src/components/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/src/components/Schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/my-app/src/components/Schedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/my-app/src/components/TeamMember.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/my-app/src/components/TeamMember.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,6 +107,11 @@
       <updated>1602317430804</updated>
       <workItem from="1602317431991" duration="1524000" />
       <workItem from="1602488347666" duration="8766000" />
+      <workItem from="1602572709136" duration="2344000" />
+      <workItem from="1602812687214" duration="599000" />
+      <workItem from="1602904842581" duration="637000" />
+      <workItem from="1602918966122" duration="5108000" />
+      <workItem from="1602989127361" duration="6355000" />
     </task>
     <servers />
   </component>
@@ -96,62 +119,62 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1602490587115">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1602921636212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602490587115" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602921636212" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602490507595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602490507595" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1603001823669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823669" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1603001823669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823669" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1603001823669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823669" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1603001823669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823669" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603001823669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823669" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1603001823669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823669" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1603001823669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823669" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1603001823669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1602512171703">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823669" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1603001823670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171703" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823670" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1603001823670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823670" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1603001823670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1602512171702">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823670" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1603001823670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602512171702" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603001823670" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1602492524301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

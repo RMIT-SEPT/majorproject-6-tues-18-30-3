@@ -14,6 +14,7 @@ import{
   BrowserRouter as Router, Route, Link
 } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
+import UserComponent from './User/UserComponent';
 
 
 class Dashboard extends Component {
@@ -70,6 +71,7 @@ class Dashboard extends Component {
                     <li>
                       <Link to ="/accountForm">Account Form</Link>
                     </li>
+                    <Link to ="/user">Profiles</Link>
                   </ul>
                 </div>
                 </div>
@@ -82,6 +84,7 @@ class Dashboard extends Component {
         <Route exact path="/signup" component={Signup}/>
         <Route exact path="/schedule" component={Schedule}/>
         <Route exact path="/team" component={Team}/>
+        <Route exact path="/user" component={UserComponent}/>
         <Route exact path="/login" component={Login}/>
         <Route exact path="/accountForm" component={AccountForm}/>
   

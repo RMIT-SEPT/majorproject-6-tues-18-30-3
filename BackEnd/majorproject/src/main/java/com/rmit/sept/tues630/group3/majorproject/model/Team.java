@@ -8,16 +8,16 @@ import javax.persistence.Id;
 
 @Entity
 public class Team {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private String firstName;//Set workers' first name as the primary key for the entity
     private String lastName;
     private long phoneNumber;
     private String email;
     private boolean availability;
-
-    public Team( String firstName, String lastName, long phoneNumber, String email, boolean availability){
+    public Team(int id, String firstName, String lastName, long phoneNumber, String email, boolean availability){
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
@@ -25,31 +25,29 @@ public class Team {
         this.availability = availability;
     }
     public Team(){
-
     }
 
+    public int getId() {
+        return id;
+    }
     public String getFirstName() {
         return firstName;
     }
     public String getLastName() {
         return lastName;
     }
-
     public long getPhoneNumber() {
         return phoneNumber;
     }
-
     public String getEmail() {
         return email;
     }
-
-    public boolean isAvailability() {
+    public boolean isAvailable() {
         return availability;
     }
-
+    public boolean getAvailability(){return availability;}
     public void setAvailability(boolean availability) {
         this.availability = availability;
     }
-
 
 }

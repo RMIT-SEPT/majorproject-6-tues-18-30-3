@@ -8,6 +8,7 @@ import addAccount from './components/Account/addAccount';
 import {Provider} from "react-redux";
 import store from "./components/store";
 import Contact from "./components/Aboutme/Contact"
+import UserComponent from './components/User/UserComponent';
 function App() {
   return (
     <Provider store={store}>
@@ -17,6 +18,7 @@ function App() {
       <Route exact path="/dashboard" component={Dashboard} />
       <Route exact path="/AddAccount" component={addAccount} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/user" component={UserComponent} />
     </div>
     </Router>
     </Provider>
